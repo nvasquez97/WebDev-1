@@ -2,14 +2,17 @@ p{
 	font-family: cursive;
 }
 div.tweet{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8e0de+0,aebfbc+22,99afab+33,8ea6a2+50,829d98+67,4e5c5a+97,0e0e0e+100 */
-background: #d8e0de; /* Old browsers */
-background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 97%, #0e0e0e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 97%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 97%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1eef9+0,cce2f4+50,b3d4ef+51,d4e7f6+100 */
+background: #e1eef9; /* Old browsers */
+background: -moz-linear-gradient(top, #e1eef9 0%, #cce2f4 50%, #b3d4ef 51%, #d4e7f6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e1eef9 0%,#cce2f4 50%,#b3d4ef 51%,#d4e7f6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e1eef9 0%,#cce2f4 50%,#b3d4ef 51%,#d4e7f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1eef9', endColorstr='#d4e7f6',GradientType=0 ); /* IE6-9 */
 width: 50%;
-display: block;
+display: inline-block;
+}
+div.Descr{
+	width:50%;
 }
 div.tweets
 {
@@ -17,19 +20,46 @@ div.tweets
 }
 div.tweetimg{
 	display: none;
+
 }
+div.nombre{
+	display:inline-block;
+	width:70%;
+}
+h1{
+	float: left;
+}
+
 img:hover{
 
 }
 p.tTweet{
 	text-align: left;
-	width: 50%;
+	width: 60%;
+	display: inline-block;
 }
 div.Date{
 	width:20%;
 	float:right;
+	display: inline-block;
 }
+div.Date>p{
+	text-align: right;
+	padding-right: 5%;
+	font-style:italic;
+	}
 div.prof{
+	
 	width: 20%;
-	float:right;
+	float:left;
+	display: inline-block;
+}
+div.prof>img{
+	padding-top: 10%;
+	padding-left: 20%;
+	}
+.center{
+	text-align: center;
+	margin-top: 0;
+	font-weight: bold;
 }
