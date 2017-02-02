@@ -8,8 +8,8 @@ background: -moz-linear-gradient(top, #e1eef9 0%, #cce2f4 50%, #b3d4ef 51%, #d4e
 background: -webkit-linear-gradient(top, #e1eef9 0%,#cce2f4 50%,#b3d4ef 51%,#d4e7f6 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #e1eef9 0%,#cce2f4 50%,#b3d4ef 51%,#d4e7f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1eef9', endColorstr='#d4e7f6',GradientType=0 ); /* IE6-9 */
-width: 50%;
-display: inline-block;
+width: 500px;
+float: left;
 }
 div.Descr{
 	width:50%;
@@ -20,7 +20,6 @@ div.tweets
 }
 div.tweetimg{
 	display: none;
-
 }
 div.nombre{
 	display:inline-block;
@@ -41,12 +40,13 @@ p.tTweet{
 div.Date{
 	width:20%;
 	float:right;
-	display: inline-block;
+	display: inline-block;    
 }
 div.Date>p{
 	text-align: right;
 	padding-right: 5%;
 	font-style:italic;
+	padding-top: 40%;
 	}
 div.prof{
 	
