@@ -21,12 +21,17 @@ button.btn.btn-default{
 	float:right;
 }
 
+#row1{
+	margin-right: 0;
+}
+
 .todo { 
   background: url(imgs/html.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: device-width;
 }
 
 img{
