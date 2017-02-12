@@ -2,6 +2,11 @@
 	color: rgb(200, 200, 200);
 	height:100%;
 }
+
+a{
+	color:white;
+}
+
 .navbar-default
 {
 	background-color:rgb(100, 100, 100);
@@ -12,6 +17,9 @@
 }
 .lado-d>p{
 	text-align: right;
+}
+.lado-i{
+	background-color: rgba(56,56,56,0.9);
 }
 .inline{
 	display: inline-block;
@@ -55,8 +63,8 @@ p.derecha{
 .nav>li>a.pad{
 	padding-left: 5px;
 	padding-right: 10px;
+	color:white;
 }
-
 .iconos{
 	text-align: center;
 }
