@@ -29,3 +29,29 @@ button.btn.btn-default{
   background-size: cover;
 }
 
+img{
+	text-align: center;
+}
+p.derecha{
+	text-align: center;
+}
+
+.titulo{
+	display:block;
+}
+.titulo>img{
+	float:right;
+}
+.titulo>h1
+{
+	position: relative;
+}
+
+.nav>li>a.pad{
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+.iconos{
+	text-align: center;
+}
