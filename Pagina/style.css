@@ -53,7 +53,7 @@ p.derecha{
 }
 .titulo>img{
 	float:right;
-	padding-top: 5%;
+	max-height: 125px;
 }
 .titulo>h1
 {
@@ -90,4 +90,8 @@ h2.titulo{
 .random:hover{
 	border-color: rgb(10,64,154);
 	border-style: solid;
+}
+
+.fontList{
+	font-size: 21px;
 }
