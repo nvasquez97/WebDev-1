@@ -57,6 +57,8 @@ p.derecha{
 }
 .titulo>h1
 {
+		color:rgb(10,64,154);
+
 	position: relative;	
 }
 
