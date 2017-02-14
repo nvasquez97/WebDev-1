@@ -95,8 +95,12 @@ h2.titulo{
 .fontList{
 	font-size: 21px;
 	color:rgb(10,64,154);
+	padding-right: 0;
 }
 .lists{
 	color:rgb(51,51,51);
 }
 
+a.list:hover{
+	color:rgb(10,64,154);	
+}
