@@ -97,8 +97,9 @@ h2.titulo{
 	color:rgb(10,64,154);
 	padding-right: 0;
 }
-.lists{
+p.lists{
 	color:rgb(51,51,51);
+	font-weight:bold;
 }
 
 a.list:hover{

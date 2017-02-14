@@ -1,6 +1,6 @@
 function onClickRandomBtn()
 {
-	var c = randomBetween(0,6);
+	var c = randomBetween(0,7);
 	if(c===1)
 	{
 		let a = document.getElementsByClassName("randombt")[0];
@@ -33,8 +33,7 @@ function onClickRandomBtn()
 	else if(c==6)
 	{
 		let a = document.getElementsByClassName("random")[0];	
-		
-
+		a.style.borderColor='black';
 	}
 	else{
 		let a = document.getElementsByClassName("randombt")[0];
