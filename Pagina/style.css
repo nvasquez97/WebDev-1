@@ -33,12 +33,12 @@ button.btn.btn-default{
 }
 
 .todo { 
-  background: url(imgs/html.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: device-width;
+	background: url(imgs/html.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: device-width;
 }
 
 img{
@@ -57,7 +57,7 @@ p.derecha{
 }
 .titulo>h1
 {
-		color:rgb(10,64,154);
+	color:rgb(10,64,154);
 
 	position: relative;	
 }
