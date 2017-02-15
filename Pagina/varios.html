@@ -48,7 +48,7 @@
 		</div>
 		<!-- Navegacion/Contenido -->
 		<div class="col-md-8 container">
-			<div class="jumbotron titulo random">
+			<div class="jumbotron titulo random" onClick="onClickRandomAll()">
 				<img src="" class="img-rounded img-responsive randomT">
 				<h1 class="randomh">Let's have fun <i class="fa fa-smile-o"></i></h1>
 
@@ -57,15 +57,15 @@
 			<div class="jumbotron">
 				
 				<div class="row">
-					<div class="col-md-6 random"><h2 class="titulo randomh">
+					<div class="col-md-6 random" onClick="onClickRandomAll()"><h2 class="titulo randomh">
 						<i class="fa fa-random"></i> 
 						Press Random button ... or Anywhere</h2>
 					</div>
-					<div class="col-md-6 random"><h2 class="randomh titulo"><i class="fa fa-random"></i> </h2></div>
+					<div class="col-md-6 random" onClick="onClickRandomAll()"><h2 class="randomh titulo"><i class="fa fa-random"></i> </h2></div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 random"><h2 class="randomh titulo"><i class="fa fa-random"></i> </h2></div>
-					<div class="col-md-6 random"><h2 class="titulo randomh"><i class="fa fa-random"></i> </h2>						
+					<div class="col-md-6 random" onClick="onClickRandomAll()"><h2 class="randomh titulo"><i class="fa fa-random"></i> </h2></div>
+					<div class="col-md-6 random" onClick="onClickRandomAll()"><h2 class="titulo randomh"><i class="fa fa-random"></i> </h2>						
 					</div>
 				</div>
 				
@@ -76,14 +76,14 @@
 			<hr>
 
 			<div class="row">
-				<img src="" id="random" class="img img-responsive center-block randomimg">
+				<img src="" id="random" class="img img-responsive center-block randomimg img-circle">
 				<p class="derecha">Nicolás Vásquez Murcia
 					<br>
 					Web Developement 2017-1
 					<br>
 					Universidad de los Andes
 				</p>
-				<button class="btn btn-primary center-block randombt">Random</button>
+				<button class="btn btn-primary center-block randombt" onClick="onClickRandomAll()">Random</button>
 			</div>
 			<hr>
 			<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#drop">

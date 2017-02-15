@@ -51,8 +51,45 @@ function randomBetween(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-onClickRandomAll()
+function onClickRandomAll()
 {
-	var a =randomBetween(0,5);
+	var c =randomBetween(0,6);
+	var b = document.getElementsByClassName("randomT")[0];
+		b.src="imgs/prin1.jpg"
+
+	var z =document.getElementsByClassName("randomimg")[0];
+	z.src="imgs/prof4.jpeg"
+	if(c===1)
+	{
+		let a = document.getElementsByClassName("randomT")[0];
+		a.src="imgs/prin1.jpg"
+	}
+	else if (c===2)
+	{ 
+		let a = document.getElementsByClassName("randomimg")[0];
+		a.src="imgs/fun1.jpg";
+	}
+	else if(c===3)
+	{
+		let a = document.getElementsByClassName("randomimg")[0];
+		a.src="imgs/fun1.png";	
+	}
+	else if(c===4)
+	{
+		let a = document.getElementsByClassName("randomtxt")[0];
+		a.style.fontFamily='fantasy';
+	}
+	else if(c===5)
+	{
+		let a = document.getElementsByClassName("randomh")[0];
+		console.log('a');
+		a.style.fontFamily='monospace';
+	}
+	else{
+		let a = document.getElementsByClassName("randombt")[0];
+		a.style.borderColor='black';
+		a.style.backgroundImage='none';
+		a.style.backgroundColor='blue';
+	}
 	
 }
