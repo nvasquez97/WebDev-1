@@ -50,3 +50,9 @@ function randomBetween(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
+onClickRandomAll()
+{
+	var a =randomBetween(0,5);
+	
+}
