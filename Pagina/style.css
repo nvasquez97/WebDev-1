@@ -73,9 +73,17 @@ p.derecha{
 	width: 70%;
 	float:left;
 }
+.EstA{
+	width: 50%;
+	float:left;
+}
 .Uimg{
 	float:right;
 	width:20%;
+}
+.UimgA{
+	float:right;
+	width:40%;
 }
 .foot{
 	font-style: italic;

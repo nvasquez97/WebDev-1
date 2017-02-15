@@ -117,19 +117,19 @@ function onClickRandomBtn()
   	}
   	else if(c===3)
   	{
-		let border = document.getElementsByClassName("random");
-		let head = document.getElementsByClassName("randomh");
-		let text = document.getElementsByClassName("randomtxt")[0];
-		let numberR = randomBetween(0,4);
+  		let border = document.getElementsByClassName("random");
+  		let head = document.getElementsByClassName("randomh");
+  		let text = document.getElementsByClassName("randomtxt")[0];
+  		let numberR = randomBetween(0,4);
   		for(i=0;i<border.length;i++)
   		{
   			border[i].style.borderColor="red";
   			head[i].style.color="black";
   			head[i].innerHTML="?";
   		}
-		head[0].innerHTML ="Enjoy!";
-		head[numberR+1].innerHTML="<i class=\"fa fa-gear\" aria-hidden=\"true\">"+" It just works";
-		text.style.fontWeight="lighter";
+  		head[0].innerHTML ="Enjoy!";
+  		head[numberR+1].innerHTML="<i class=\"fa fa-gear\" aria-hidden=\"true\">"+" It just works";
+  		text.style.fontWeight="lighter";
   	}
   	else if(c===4)
   	{
@@ -143,7 +143,7 @@ function onClickRandomBtn()
   			head[i].style.color="blue";
   			head[i].innerHTML="?";
   		}
-  		head[0].innerHTML ="Javascript works!";
+  		head[0].innerHTML ="JavaScript works!";
   		head[numberR+1].innerHTML="<i class=\"fa fa-flag\" aria-hidden=\"true\">"+" This is my random page";
   		text.style.fontFamily="fantasy";
   	}
@@ -175,7 +175,7 @@ function onClickRandomBtn()
   			head[i].innerHTML="?";
   		}
   		head[0].innerHTML ="Thanks for clicking!";
-  		head[numberR+1].innerHTML="<i class=\"fa fa-gears\" aria-hidden=\"true\">"+" Javasrcipt is weird";
+  		head[numberR+1].innerHTML="<i class=\"fa fa-gears\" aria-hidden=\"true\">"+" JavaSrcipt is weird";
   		text.style.fontFamily="monospace";
   	}
 
