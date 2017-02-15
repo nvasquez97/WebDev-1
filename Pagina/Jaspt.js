@@ -53,43 +53,51 @@ function randomBetween(min, max) {
 
 function onClickRandomAll()
 {
-	var c =randomBetween(0,6);
+	
+	var d =randomBetween(0,3);
 	var b = document.getElementsByClassName("randomT")[0];
-		b.src="imgs/prin1.jpg"
+	if(d!==0)
+	{
+		b.src="imgs/prin"+d+".jpg"
 
+	}
+	else{
+	b.src="imgs/prin.jpg"
+	}	
+
+	var c =randomBetween(0,6);
 	var z =document.getElementsByClassName("randomimg")[0];
-	z.src="imgs/prof4.jpeg"
+	if(c!==0)
+	{
+		z.src="imgs/prof"+c+".jpeg"	
+	}
+	else
+	{
+		z.src="imgs/prof.jpeg"		
+	}
+
 	if(c===1)
 	{
-		let a = document.getElementsByClassName("randomT")[0];
-		a.src="imgs/prin1.jpg"
+		
 	}
 	else if (c===2)
 	{ 
-		let a = document.getElementsByClassName("randomimg")[0];
-		a.src="imgs/fun1.jpg";
+		
 	}
 	else if(c===3)
 	{
-		let a = document.getElementsByClassName("randomimg")[0];
-		a.src="imgs/fun1.png";	
+		
 	}
 	else if(c===4)
 	{
-		let a = document.getElementsByClassName("randomtxt")[0];
-		a.style.fontFamily='fantasy';
+		
 	}
 	else if(c===5)
 	{
-		let a = document.getElementsByClassName("randomh")[0];
-		console.log('a');
-		a.style.fontFamily='monospace';
+		
 	}
 	else{
-		let a = document.getElementsByClassName("randombt")[0];
-		a.style.borderColor='black';
-		a.style.backgroundImage='none';
-		a.style.backgroundColor='blue';
+		
 	}
 	
 }
